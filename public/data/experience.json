@@ -1,0 +1,111 @@
+{
+  "roles": [
+    {
+      "company": "Allianz Insurance",
+      "client": "Delta Airlines & Allianz",
+      "title": "App Development Associate Manager",
+      "location": "Chicago, IL",
+      "start": "2025-01",
+      "end": "Present",
+      "bullets": [
+        "Mileage Redemption Project: enable travel insurance purchases via mileage points",
+        "Core systems with Java Servlets and serverless Node.js",
+        "PeopleSoft CRM integration",
+        "Apple Pay/Google Pay cryptogram-based payments",
+        "Lead onsite/offshore teams",
+        "End-to-end architecture, diagrams, client presentations",
+        "Oversee SIT/UAT and prod deployments"
+      ],
+      "tags": [
+        "Java",
+        "Node.js",
+        "Serverless",
+        "Payments",
+        "Architecture",
+        "Leadership",
+        "CRM"
+      ]
+    },
+    {
+      "company": "Accenture (CHUBB)",
+      "title": "Team Lead",
+      "location": "Chicago, IL",
+      "start": "2023-10",
+      "end": "2025-12",
+      "bullets": [
+        "UI requirements to design, document, develop, deploy components",
+        "Escalation for complex issues; performance/security improvements",
+        "Manage support portfolio; Jira story planning; release mgmt",
+        "Coordinate UAT deployments; fixes/enhancements",
+        "Tech discussions with SMEs; daily stand-ups"
+      ],
+      "tags": [
+        "UI",
+        "Leadership",
+        "Performance",
+        "Security",
+        "Jira",
+        "UAT"
+      ]
+    },
+    {
+      "company": "Accenture (ULINE)",
+      "title": "Team Lead",
+      "location": "Chicago, IL",
+      "start": "2022-12",
+      "end": "2023-10",
+      "bullets": [
+        "Full‑stack: Java microservices & Node.js modules",
+        "NPM package for analytics; unit tests; CI/CD patterns",
+        "Azure Data Flow pipelines for ingestion/transforms",
+        "Stakeholder prototyping; architecture docs; code reviews"
+      ],
+      "tags": [
+        "Java",
+        "Node.js",
+        "Azure Data Factory",
+        "CI/CD",
+        "Microservices"
+      ]
+    },
+    {
+      "company": "Accenture (T‑Mobile)",
+      "title": "Application Development Specialist",
+      "location": "Chicago, IL",
+      "start": "2017-06",
+      "end": "2022-11",
+      "bullets": [
+        "Full‑stack: Java microservices & Node.js modules",
+        "NPM package for analytics; unit tests; CI/CD",
+        "Enterprise ETL pipelines and dashboards",
+        "Prototyping, testing, debugging, documentation"
+      ],
+      "tags": [
+        "Java",
+        "Node.js",
+        "ETL",
+        "Dashboards",
+        "CI/CD"
+      ]
+    },
+    {
+      "company": "Wipro",
+      "title": "UI Lead",
+      "location": "",
+      "start": "2010-08",
+      "end": "2014-02",
+      "bullets": [
+        "PhoneGap Android apps and Java Swing desktop UI",
+        "SRS reviews, UI flows, user story analysis",
+        "Jasmine unit tests and QA environment setup"
+      ],
+      "tags": [
+        "PhoneGap",
+        "Android",
+        "Java Swing",
+        "Jasmine",
+        "QA"
+      ]
+    }
+  ]
+}

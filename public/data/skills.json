@@ -1,0 +1,84 @@
+{
+  "languages": [
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "Shell"
+  ],
+  "frontend": [
+    "Angular",
+    "React",
+    "Next.js",
+    "Vue",
+    "Java Swing"
+  ],
+  "backend": [
+    "Node.js",
+    "Java (Microservices)",
+    "AWS Lambda"
+  ],
+  "testing": [
+    "Tosca",
+    "SonarQube",
+    "Jasmine",
+    "JUnit",
+    "Karma"
+  ],
+  "scriptingMarkup": [
+    "HTML5",
+    "CSS3",
+    "AJAX",
+    "XML"
+  ],
+  "databasesClients": [
+    "DynamoDB",
+    "Elasticsearch",
+    "MySQL",
+    "Postman",
+    "SOAP UI"
+  ],
+  "versionControl": [
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Bitbucket",
+    "SVN",
+    "CVS"
+  ],
+  "ciCdBuild": [
+    "Jenkins",
+    "GitLab",
+    "Webpack",
+    "Gradle",
+    "Maven"
+  ],
+  "cloudDevOps": [
+    "AWS (EC2,S3,Lambda)",
+    "Azure (App Services, Data Factory, Data Studio)",
+    "Docker",
+    "Kubernetes",
+    "Mesos"
+  ],
+  "methodologies": [
+    "Agile",
+    "Scrum",
+    "TDD",
+    "Waterfall"
+  ],
+  "idesOs": [
+    "VS Code",
+    "IntelliJ",
+    "Eclipse",
+    "macOS",
+    "Windows",
+    "Unix",
+    "Linux"
+  ],
+  "aiAgentic": [
+    "GitHub Copilot",
+    "Cline",
+    "Playwright MCP",
+    "Perplexity",
+    "MCP servers"
+  ]
+}
