@@ -48,8 +48,16 @@ export type Highlights = { summary: string[] };
 
 export type Extras = { bonusSkills: string[]; badges: string[] };
 
-export async function loadJson<T>(path: string) {
-  const res = await fetch(path, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
-  return (await res.json()) as T;
+export async function loadJson<T>(p: string): Promise<T> {
+  if (typeof window !== "undefined") {
+    const res = await fetch(p, { cache: "no-store" });
+    if (!res.ok) throw new Error(`Failed to load ${p}: ${res.status}`);
+    return (await res.json()) as T;
+  }
+  const { promises: fsp } = await import("fs");
+  const pathMod = await import("path");
+  const cleaned = p.startsWith("/") ? p.slice(1) : p;
+  const fsPath = pathMod.join(process.cwd(), "public", cleaned);
+  const buf = await fsp.readFile(fsPath, "utf8");
+  return JSON.parse(buf) as T;
 }

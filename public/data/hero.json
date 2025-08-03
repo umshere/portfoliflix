@@ -1,0 +1,18 @@
+{
+    "title": "Umesh Muzhayil Chathoth | Full Stack Engineering Portfolio",
+    "subtitle": "14+ years of expertise in full-stack development, AI-driven solutions, and enterprise architecture. Building digital experiences that transform businesses.",
+    "ctas": [
+        {
+            "label": "Contact Me",
+            "href": "mailto:umshere@gmail.com",
+            "variant": "solid"
+        },
+        {
+            "label": "View LinkedIn",
+            "href": "http://linkedin.com/in/umesh-muzhayil-chathoth",
+            "variant": "outline"
+        }
+    ],
+    "backgroundImage": "https://cdn.gamma.app/tuvjrqw1tbc8c3y/generated-images/_-muhn2T17T0ZZN_3EkdA.png",
+    "overlay": true
+}

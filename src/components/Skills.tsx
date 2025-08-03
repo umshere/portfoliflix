@@ -16,38 +16,37 @@ const order: (keyof SkillsT)[] = [
   "aiAgentic",
 ];
 
+/**
+ * Gamma-style Skills:
+ * - Section + container wrappers
+ * - Each category as a small heading with a chip group
+ * - Chips styled via `.badge` utilities; layout via `.grid` and flex gaps
+ */
 export default function Skills({ skills }: { skills: SkillsT }) {
   return (
-    <section>
-      <h2>Skills</h2>
-      {order.map((k) => (
-        <div key={k} style={{ marginBottom: 8 }}>
-          <strong
-            style={{
-              display: "inline-block",
-              minWidth: 180,
-              textTransform: "capitalize",
-            }}
-          >
-            {String(k).replace(/[A-Z]/g, (m) => " " + m)}
-          </strong>
-          {skills[k].map((s) => (
-            <span
-              key={s}
-              style={{
-                display: "inline-block",
-                padding: "4px 8px",
-                margin: "2px 6px 2px 0",
-                border: "1px solid var(--border)",
-                borderRadius: 12,
-                background: "var(--chip)",
-              }}
-            >
-              {s}
-            </span>
+    <section className="section">
+      <div className="container">
+        <header className="section__head">
+          <h2 className="section__title">Skills</h2>
+        </header>
+
+        <div className="grid grid--3">
+          {order.map((k) => (
+            <div key={k} className="card">
+              <h3 className="card__title text-sm uppercase tracking-wide text-subtle">
+                {String(k).replace(/[A-Z]/g, (m) => " " + m)}
+              </h3>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {skills[k].map((s) => (
+                  <span key={s} className="badge badge--soft">
+                    {s}
+                  </span>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
-      ))}
+      </div>
     </section>
   );
 }

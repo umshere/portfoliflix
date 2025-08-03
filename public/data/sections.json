@@ -1,0 +1,249 @@
+{
+    "sections": [
+        {
+            "id": "journey",
+            "title": "Professional Journey",
+            "items": [
+                {
+                    "index": 1,
+                    "role": "App Development Associate Manager",
+                    "company": "Allianz Insurance",
+                    "location": "Chicago, IL",
+                    "period": "January 2025 - Present"
+                },
+                {
+                    "index": 2,
+                    "role": "Team Lead",
+                    "company": "Accenture (CHUBB Client)",
+                    "location": "Chicago, IL",
+                    "period": "October 2023 - December 2025"
+                },
+                {
+                    "index": 3,
+                    "role": "Team Lead",
+                    "company": "Accenture (ULINE Client)",
+                    "location": "",
+                    "period": "December 2022 - October 2023"
+                }
+            ]
+        },
+        {
+            "id": "expertise",
+            "title": "Technical Expertise",
+            "columns": [
+                {
+                    "heading": "Frontend",
+                    "items": [
+                        "Angular",
+                        "React",
+                        "Next.js",
+                        "Vue",
+                        "TypeScript",
+                        "HTML5",
+                        "CSS3"
+                    ]
+                },
+                {
+                    "heading": "Backend",
+                    "items": [
+                        "Node.js",
+                        "Java Microservices",
+                        "AWS Lambda",
+                        "RESTful APIs"
+                    ]
+                },
+                {
+                    "heading": "Cloud & DevOps",
+                    "items": [
+                        "AWS",
+                        "Azure",
+                        "Docker",
+                        "Kubernetes",
+                        "CI/CD pipelines",
+                        "Git workflows"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "AI-Driven Development",
+            "bullets": [
+                "GitHub Copilot integration for intelligent code completion",
+                "Cline and various Model Context Protocol servers",
+                "Azure MCP Server and Perplexity implementation"
+            ],
+            "image": "https://cdn.gamma.app/tuvjrqw1tbc8c3y/generated-images/_-muhn2T17T0ZZN_3EkdA.png"
+        },
+        {
+            "id": "spotlight",
+            "title": "Project Spotlight: Mileage Redemption",
+            "arrows": [
+                {
+                    "heading": "Integration",
+                    "text": "Connected Delta Airlines' mileage system with Allianz Insurance platform using Java Servlets and Node.js"
+                },
+                {
+                    "heading": "CRM Enhancement",
+                    "text": "Integrated with PeopleSoft CRM for seamless customer data synchronization"
+                },
+                {
+                    "heading": "Payment Solutions",
+                    "text": "Implemented Apple Pay and Google Pay via cryptogram-based secure payment architectures"
+                }
+            ],
+            "note": "This flagship project enables customers to purchase travel insurance using accumulated airline mileage points, creating a seamless customer experience."
+        },
+        {
+            "id": "leadership",
+            "title": "Leadership Philosophy",
+            "counters": [
+                {
+                    "value": "14+",
+                    "label": "Years Experience",
+                    "caption": "Building enterprise applications across multiple industries"
+                },
+                {
+                    "value": "3+",
+                    "label": "Teams Led",
+                    "caption": "Managing distributed development teams across global locations"
+                },
+                {
+                    "value": "20+",
+                    "label": "Projects Delivered",
+                    "caption": "Successfully completing complex enterprise initiatives on time"
+                }
+            ]
+        },
+        {
+            "id": "principles",
+            "title": "Core Development Principles",
+            "cards": [
+                {
+                    "heading": "Quality Code",
+                    "text": "Enforcing coding standards and security guidelines through rigorous code reviews"
+                },
+                {
+                    "heading": "Automation",
+                    "text": "Building CI/CD pipelines for consistent testing and deployment"
+                },
+                {
+                    "heading": "Collaboration",
+                    "text": "Facilitating cross-functional teamwork between IT, SMEs, and business leaders"
+                },
+                {
+                    "heading": "Problem Solving",
+                    "text": "Applying root-cause analysis to resolve complex application issues"
+                }
+            ]
+        },
+        {
+            "id": "experience",
+            "title": "Professional Experience",
+            "timeline": [
+                {
+                    "index": 1,
+                    "role": "App Development Associate Manager",
+                    "company": "Allianz Insurance",
+                    "location": "Chicago, IL",
+                    "period": "January 2025 - Present",
+                    "bullets": [
+                        "Lead and mentor onsite and Brazil-based offshore teams, ensuring cohesive collaboration and delivery quality",
+                        "Design end-to-end solution architectures, produce sequential diagrams, and present technical designs to clients",
+                        "Oversee SIT and UAT cycles, coordinate with stakeholders, and facilitate smooth production deployments through cross-functional teamwork"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "role": "Team Lead",
+                    "company": "Accenture, CHUBB Client",
+                    "location": "Chicago, IL",
+                    "period": "October 2023 - December 2025",
+                    "bullets": [
+                        "Spearhead requirement gathering with Business Analysts to design, document, develop, and deploy sophisticated UI components",
+                        "Serve as an escalation point for technical issues, debugging complex code problems, conducting root-cause analysis, and implementing performance or security improvements",
+                        "Manage a support web portfolio for a major insurance client, overseeing daily support tasks, directing story creation in Jira, and handling end-to-end release management",
+                        "Coordinate deployments in UAT environments, ensuring prompt bug fixes and enhancements",
+                        "Conduct technical discussions with SMEs and cross-functional teams, providing hands-on development support and status updates during daily stand-ups"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "role": "Team Lead",
+                    "company": "Accenture, ULINE Client",
+                    "location": "",
+                    "period": "December 2022 - October 2023",
+                    "bullets": [
+                        "Built Java microservices and Node.js modules to handle data integration, service orchestration, and business logic",
+                        "Created an NPM package for business analytics, establishing patterns for unit testing, CI/CD, and automated deployments",
+                        "Constructed Azure Data Flow pipelines for large-scale data ingestion and transformation, supporting an enterprise-grade DB Violation dashboard",
+                        "Partnered with stakeholders to prototype, refine, test, and debug solutions; delivered architecture documentation and code reviews"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "role": "Application Development Specialist",
+                    "company": "Accenture, T-Mobile Client",
+                    "location": "Chicago, IL",
+                    "period": "June 2017 - November 2022",
+                    "bullets": [
+                        "Built Java microservices and Node.js modules to handle data integration, service orchestration, and business logic",
+                        "Created an NPM package for business analytics, establishing patterns for unit testing, CI/CD, and automated deployments",
+                        "Constructed Azure Data Flow pipelines for large-scale data ingestion and transformation, supporting an enterprise-grade DB Violation dashboard",
+                        "Partnered with stakeholders to prototype, refine, test, and debug solutions; delivered architecture documentation and code reviews"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "role": "UI Lead",
+                    "company": "Wipro",
+                    "location": "",
+                    "period": "August 2010 - February 2014",
+                    "bullets": [
+                        "Led the end-to-end development of PhoneGap Android apps and desktop UI (Java Swing) for healthcare clients",
+                        "Oversaw SRS document reviews, UI flow design, user story analysis, and integrated modules into the final product",
+                        "Created Jasmine unit tests for JavaScript components and established a robust QA environment"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "education",
+            "title": "Education & Continuous Learning",
+            "formal": {
+                "degree": "Master of Science in Computer Science",
+                "institution": "Kannur University, India",
+                "period": "2003-2006"
+            },
+            "certifications": [
+                "Microsoft Azure's Agentic AI Hackathon participant",
+                "Digital badge for innovative AI applications"
+            ],
+            "learning": [
+                "Large Language Models & AI implementation",
+                "Advanced prompt engineering techniques",
+                "Cloud-native application architecture",
+                "Serverless computing paradigms"
+            ]
+        },
+        {
+            "id": "connect",
+            "title": "Let's Connect",
+            "contact": {
+                "email": "umshere@gmail.com",
+                "phone": "+1.425.589.3894",
+                "location": "Chicago, Illinois",
+                "links": [
+                    {
+                        "label": "View GitHub",
+                        "href": "https://github.com/umshere"
+                    },
+                    {
+                        "label": "Connect on LinkedIn",
+                        "href": "http://linkedin.com/in/umesh-muzhayil-chathoth"
+                    }
+                ]
+            }
+        }
+    ]
+}
